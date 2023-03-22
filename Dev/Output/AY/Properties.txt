@@ -1,0 +1,49 @@
+
+corruptionEffectColor: 0.93,0.02,0.035
+corruptionEyeColor: 0.93,0.02,0.035
+Palette: 263
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 4
+overseersSpawnChance: 0.4
+overseersMin: 0
+overseersMax: 3
+playerGuideOverseerSpawnChance: 0.2
+playerGuideOverseerSpawnChance: 1.0
+Room Setting Templates: Cave, Abyss, SewersL, Outside, LowerS, Floodedstruct, Strmlnds2
+Subregion: Abyss
+Subregion: Abyss
+Subregion: Stormy lands
+Room_Attr: AY_C10: MirosVulture-Forbidden,
+Room_Attr: GATE_AY_OS: Polliwog-Forbidden,
+Room_Attr: AY_A01: JetFish-Forbidden,Polliwog-Forbidden,MirosVulture-Forbidden,Eel-Forbidden,
+Room_Attr: AY_A02: Scavenger-Like,JetFish-Forbidden,
+Room_Attr: AY_A03: JetFish-Forbidden,
+Room_Attr: AY_A04: Scavenger-Stay,
+Room_Attr: AY_B01: Scavenger-Forbidden,MirosVulture-Forbidden,
+Room_Attr: AY_B04: Scavenger-Forbidden,JetFish-Avoid,
+Room_Attr: AY_B02: Scavenger-Forbidden,
+Room_Attr: AY_B05: Scavenger-Forbidden,Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_S02: Scavenger-Forbidden,Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_B03: Scavenger-Forbidden,Polliwog-Avoid,Eel-Avoid,
+Room_Attr: AY_B07: JetFish-Avoid,Polliwog-Avoid,Eel-Avoid,
+Room_Attr: AY_B06: Polliwog-Like,
+Room_Attr: AY_B08: JetFish-Forbidden,Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_B09: JetFish-Forbidden,Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_B10: JetFish-Forbidden,Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_B11: JetFish-Forbidden,Polliwog-Avoid,Eel-Avoid,
+Room_Attr: AY_B16: JetFish-Forbidden,Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_B14: Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_B15: BlackLizard-Forbidden,LanternMouse-Forbidden,Spider-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,JetFish-Forbidden,Polliwog-Forbidden,Eel-Forbidden,MotherSpider-Forbidden,
+Room_Attr: AY_B13: JetFish-Avoid,Polliwog-Avoid,
+Room_Attr: AY_S03: Polliwog-Forbidden,Eel-Forbidden,
+Room_Attr: AY_C01: MirosVulture-Forbidden,
+Room_Attr: AY_C02: MirosVulture-Forbidden,
+Room_Attr: AY_C03: BlackLizard-Avoid,LanternMouse-Forbidden,Spider-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,MirosBird-Stay,MotherSpider-Forbidden,
+Room_Attr: AY_C04: MirosBird-Stay,
+Room_Attr: AY_C05: MirosBird-Stay,
+Room_Attr: AY_C06: MirosVulture-Avoid,
+Room_Attr: AY_C07: MirosVulture-Forbidden,
+Room_Attr: AY_C09: MirosVulture-Forbidden,

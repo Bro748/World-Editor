@@ -1,0 +1,75 @@
+ROOMS
+
+GATE_SH_AY : AY_C10, DISCONNECTED, AY_S07 : GATE
+AY_S07 : GATE_SH_AY : SHELTER
+AY_C10 : AY_C09, DISCONNECTED, GATE_SH_AY
+GATE_AY_OS : DISCONNECTED, DISCONNECTED, AY_A01, AY_S01 : GATE
+GATE_ME_AY : ME_S05, AY_B03, ME_C11 : GATE
+AY_S01 : GATE_AY_OS : SHELTER
+AY_A01 : AY_A03, GATE_AY_OS, AY_A02
+AY_A02 : AY_B01, AY_A03, AY_A01
+AY_A03 : AY_A04, AY_A02, AY_A01
+AY_A04 : AY_A03
+AY_B01 : DISCONNECTED, AY_A02, AY_B04 : PERF_HEAVY
+AY_B04 : AY_B01, DISCONNECTED, AY_B02 : SWARMROOM
+AY_B02 : AY_B04, AY_S02, AY_B03, AY_B05, AY_B07 : PERF_HEAVY
+AY_B05 : AY_B02
+AY_S02 : AY_B02 : SHELTER
+AY_B03 : AY_B02, GATE_ME_AY
+AY_B07 : AY_B02, AY_B06
+AY_B06 : AY_B07, AY_B11, AY_B08, AY_B09, AY_B10
+AY_B08 : AY_B06
+AY_B09 : AY_B06
+AY_B10 : AY_B06
+AY_B11 : AY_B12, AY_B06, AY_B16
+AY_B16 : AY_B11, DISCONNECTED
+AY_B12 : AY_B13, AY_B14, AY_B11
+AY_B14 : AY_B12
+AY_B15 : AY_C01, AY_B13
+AY_B13 : AY_B15, AY_B12, AY_S03
+AY_S03 : AY_B13 : SHELTER
+AY_C01 : AY_B15, AY_C02
+AY_C02 : AY_C03, AY_C01, DISCONNECTED
+AY_C03 : AY_C04, DISCONNECTED, AY_C02
+AY_C04 : AY_C05, AY_C03
+AY_C05 : AY_C06, AY_S04, AY_C04, DISCONNECTED
+AY_S04 : AY_C05 : SHELTER
+AY_C06 : AY_C07, AY_C05 : SCAVOUTPOST
+AY_C07 : AY_C06, AY_C08
+AY_C08 : AY_C07, AY_C09 : SWARMROOM
+AY_C09 : AY_C08, AY_C10
+END ROOMS
+CREATURES
+
+(Rivulet)OFFSCREEN : 0-Miros Vulture, 0-Scavenger-11, 0-Leviathan-2, 0-Miros-14
+(White,Gourmand)OFFSCREEN : 0-Scavenger-9, 0-Leviathan-2, 0-Miros-9
+(Yellow)OFFSCREEN : 0-Scavenger-11, 0-Leviathan-1, 0-Miros-6
+(Red,Artificer,Spear)OFFSCREEN : 0-Scavenger-11, 0-Leviathan-3, 0-Miros-14
+(White,Yellow,Gourmand,Rivulet)AY_C02 : 3-Lantern Mouse-2
+(Artificer,Spear)AY_C02 : 3-MotherSpider-2
+(Red)AY_C02 : 3-Black-1
+AY_C05 : 4-Tentacle Plant
+(Spear)AY_C07 : 3-Tentacle Plant, 4-Tentacle Plant
+(Spear)LINEAGE : AY_C07 : 2 : Red-0.1, Train-0
+(X-Spear)AY_C07 : 2-Red, 3-Tentacle Plant, 4-Tentacle Plant
+AY_C10 : 3-Tentacle Plant, 4-Tentacle Plant, 5-Tentacle Plant
+(Rivulet)AY_B02 : 6-SeaLeech-10, 8-Eel
+(Rivulet)AY_B06 : 5-Aquapede, 9-Aquapede, 8-Jetfish-2
+(Rivulet)AY_B12 : 4-Eel
+(White,Gourmand)AY_B02 : 6-Leech-10, 8-SeaLeech-15
+(White,Gourmand)AY_B12 : 4-SeaLeech-10
+(White,Yellow,Gourmand)AY_B06 : 6-JetFish-2, 5-Polliwog-5, 7-JetFish-2
+(Yellow)AY_B02 : 6-Leech-10, 8-SeaLeech-10
+(Red,Artificer,Spear)AY_B02 : 6-SeaLeech-10, 8-SeaLeech-15
+(Red,Artificer,Spear)AY_B06 : 6-JetFish-3, 5-Polliwog-5, 7-JetFish-3
+(X-White,Yellow,Red,Gourmand,Rivulet)AY_B12 : 4-Eel
+AY_C02 : 5-Black
+(White,Yellow)AY_C02 : 4-Lantern Mouse
+(Red,Gourmand,Artificer,Spear)AY_C02 : 4-Spider-25
+(Rivulet)AY_C02 : 4-SpitterSpider-2, 4-MotherSpider
+AY_B02 : 7-JetFish, 9-JetFish, 5-JetFish-2
+AY_B01 : 5-JetFish-5, 4-Polliwog-2
+(Yellow)AY_B12 : 3-JetFish-1
+(Spear)AY_B12 : 3-Polliwog-5
+(Red,Artificer)AY_B12 : 3-Polliwog-3
+END CREATURES

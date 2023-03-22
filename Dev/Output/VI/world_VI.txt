@@ -1,0 +1,134 @@
+ROOMS
+
+GATE_MA_VI : VI_A01, DISCONNECTED, DISCONNECTED : GATE
+GATE_CF_VI : VI_B15, DISCONNECTED, DISCONNECTED : GATE
+VI_A01 : VI_A02, GATE_MA_VI
+VI_A02 : VI_A03, VI_B01, VI_A16, VI_A01
+VI_A03 : VI_A09, DISCONNECTED, VI_A04, VI_A05, VI_A02
+VI_A04 : VI_A03, VI_A05
+VI_A05 : VI_A04, VI_A03 : SWARMROOM
+VI_A06 : VI_A07, VI_A17, VI_A16
+VI_A16 : VI_A06, VI_A02
+VI_A07 : VI_A08, VI_B05, VI_A06
+VI_A08 : VI_A10, VI_A18, VI_A07
+VI_A09 : VI_A10, VI_A03
+VI_A10 : VI_A08, VI_S03, VI_A09
+VI_S03 : VI_A10 : SHELTER
+VI_A11 : VI_A12, VI_A20, VI_A17
+VI_A17 : VI_A06, VI_A11
+VI_A12 : VI_A15, VI_A14, VI_A13, VI_B09, VI_A11
+VI_A13 : VI_A14, VI_A12 : SWARMROOM
+VI_A14 : VI_A15, VI_B12, VI_B11, VI_B10, VI_A13, VI_A12
+VI_A15 : VI_A18, VI_A12, VI_A14
+VI_A18 : VI_A08, VI_A15
+VI_A20 : VI_A19, VI_A11
+VI_A19 : VI_A21, VI_A20
+VI_A21 : VI_B12, VI_B13, VI_A19
+VI_B01 : VI_B02, VI_A02, VI_B03
+VI_B02 : VI_B04, VI_B01
+VI_B03 : VI_S01, VI_B01
+VI_B04 : VI_B06, VI_B02, VI_B05
+VI_B05 : VI_B04, VI_A07
+VI_S01 : VI_B03 : SHELTER
+VI_B06 : VI_B07, VI_B04
+VI_B07 : VI_B08, VI_B06
+VI_B08 : VI_B09, VI_B07
+VI_B09 : VI_B08, VI_B10, VI_A12, VI_B15
+VI_B10 : VI_A14, VI_B09
+VI_B11 : VI_A14, VI_S02, VI_B14
+VI_B12 : VI_A21, VI_A14
+VI_S02 : VI_B11 : SHELTER
+VI_B13 : VI_B17, VI_A21
+VI_B14 : VI_B11, VI_B15
+VI_B15 : VI_B09, GATE_CF_VI, VI_B14, DISCONNECTED
+VI_B17 : VI_B16, VI_B13, VI_S04
+VI_S04 : VI_B17 : SHELTER
+VI_B16 : VI_B17, DISCONNECTED
+END ROOMS
+CREATURES
+
+(White,Gourmand)LINEAGE : VI_A19 : 3 : White-0.5, White-0.5, Cyan-0.5, Red-0
+(Red,Artificer)LINEAGE : VI_A19 : 3 : White-0.5, Cyan-0.5, Red-0
+VI_B12 : 2-Blue
+(Rivulet)VI_A19 : 3-Yeek-3
+VI_A11 : 4-Yellow-3, 3-CicadaB-3
+LINEAGE : VI_A11 : 6 : EggBug-0.5, Yellow-0.6, Red-0
+(White,Gourmand,Rivulet,Yellow)VI_A12 : 6-Cyan
+(Red,Artificer,Spear)VI_A12 : 6-Cyan-2
+(Yellow)VI_A08 : 3-White
+(White,Rivulet,Yellow,Gourmand)LINEAGE : VI_A07 : 6 : Blue-0.7, White-0.5, Cyan-0
+(White,Rivulet,Yellow,Gourmand)VI_A07 : 3-CicadaA, 4-CicadaA, 5-Blue
+(Spear)VI_A06 : 3-Green
+(Yellow)VI_A06 : 5-EggBug
+(X-Yellow)LINEAGE : VI_A08 : 3 : White-0.7, Cyan-0
+(X-Yellow)VI_A08 : 4-Centiwing
+(X-Yellow,Spear)VI_A06 : 4-Blue
+(Red,Spear,Artificer)VI_A07 : 6-Cyan-2, 3-CicadaB, 4-CicadaB
+(Red,Artificer,Spear)VI_A07 : 5-Blue-2
+(Yellow)VI_A02 : 5-EggBug
+(Yellow)VI_A03 : 5-Blue, 6-CicadaA, 6-CicadaB, 7-Blue
+(White,Rivulet,Yellow,Gourmand)VI_A01 : 2-Green, 8-Garbage Worm-2
+VI_A01 : 4-EggBug-2
+(White)LINEAGE : VI_A02 : 4 : Green-0.7, Cyan-0.5, Red-0
+(Rivulet,Gourmand)LINEAGE : VI_A02 : 4 : Caramel-0.4, Green-0.7, Cyan-0.5, Red-0
+(White,Rivulet,Gourmand)LINEAGE : VI_A03 : 5 : Blue-0.5, White-0.3, Cyan-0
+(White,Rivulet,Gourmand)VI_A03 : 6-CicadaA, 6-CicadaB, 7-Blue
+(Red,Artificer)VI_A01 : 2-Cyan
+(Red,Artificer,Spear)VI_A01 : 8-Garbage Worm-2
+(Red,Artificer)LINEAGE : VI_A02 : 4 : Green-0.7, Cyan-0.3, Red-0
+(Red,Artificer,Spear)LINEAGE : VI_A03 : 5 : Blue-0.9, White-0.7, Cyan-0
+(Red,Artificer,Spear)LINEAGE : VI_A03 : 6 : White-0.7, Cyan-0
+(Red,Artificer)VI_A03 : 7-Centiwing
+VI_A09 : 2-Centiwing, 3-White
+LINEAGE : VI_A08 : 4 : NONE-0.4, Centiwing-0
+(X-Spear)LINEAGE : VI_A03 : 7 : NONE-0.4, Centiwing-0
+LINEAGE : VI_A09 : 2 : NONE-0.4, Centiwing-0
+(Yellow)LINEAGE : VI_B06 : 2 : EggBug-0.5, EggBug-0.5, Pink-0
+(White,Rivulet,Gourmand)LINEAGE : VI_B06 : 2 : EggBug-0.5, DropBug-0.5, Pink-0
+(Red,Artificer,Spear)VI_B06 : 2-DropBug-2
+(White,Rivulet,Yellow,Gourmand)VI_B04 : 3-Blue
+(Red,Artificer)VI_B04 : 3-Cyan
+(Yellow)LINEAGE : VI_A14 : 6 : Blue-0-3, Pink-0.5, White-0
+(Yellow)LINEAGE : VI_A14 : 8 : Pink-0.3, Blue-0.5, White-0
+(Rivulet)LINEAGE : VI_A14 : 8 : Strawberry-0.5, White-0.5, Cyan-0
+(X-Yellow)VI_A14 : 6-White
+(X-Yellow,Rivulet)LINEAGE : VI_A14 : 8 : Pink-0.5, White-0.5, Cyan-0
+(X-Yellow)LINEAGE : VI_A14 : 7 : Blue-0.3, Pink-0.5, White-0
+(White,Yellow)VI_B15 : 7-Tentacle Plant
+(Rivulet)VI_B15 : 7-Tentacle Plant, 8-Eel
+(X-White,Rivulet,Yellow)VI_B15 : 7-Tentacle Plant
+LINEAGE : VI_B09 : 6 : Pink-0.5, White-0.5, Cyan-0
+(Red,Gourmand)LINEAGE : VI_B09 : 4 : White-0.5, Cyan-0.5, Red-0
+(Red,Artificer,Spear)VI_B10 : 2-DropBug
+(Yellow)OFFSCREEN : 0-Vulture-3, 0-Scavenger-3
+(White,Gourmand)OFFSCREEN : 0-Vulture-4
+(White,Rivulet,Gourmand)OFFSCREEN : 0-Scavenger-3
+(Red,Artificer,Spear)OFFSCREEN : 0-Vulture-4, 0-KingVulture
+(Red)OFFSCREEN : 0-Scavenger-6
+(Artificer,Spear)OFFSCREEN : 0-Elite-6
+(Artificer)OFFSCREEN : 0-Scavenger-3
+(Rivulet)OFFSCREEN : 0-KingVulture-3, 0-Vulture-2
+(X-White,Yellow,Rivulet)VI_B15 : 8-Salamander
+(Spear)VI_A02 : 4-RedLizard
+(Artificer,Spear)VI_B09 : 4-ZoopLizard
+(Artificer,Spear)VI_B11 : 3-ZoopLizard
+(Red,Gourmand,Artificer,Spear)VI_B11 : 4-WhiteLizard
+(Spear)LINEAGE : VI_A01 : 2 : SpitLizard-0.4, Cyan-0.8, Red-0
+(Spear)LINEAGE : VI_A01 : 3 : SpitLizard-0.4, Cyan-0.8, Red-0
+(Spear)VI_A19 : 3-ZoopLizard-2
+(Yellow)VI_A21 : 4-CicadaB-2
+(X-Yellow,Spear,Rivulet)VI_A21 : 4-CicadaB
+(Spear)VI_A21 : 4-CicadaA-4, 3-White
+(Spear)VI_B05 : 2-ZoopLizard
+VI_A12 : 5-BigNeedleWorm, 5-SmallNeedleWorm-3
+(Spear)VI_A03 : 7-BigNeedleWorm, 7-SmallNeedleWorm-3
+(Rivulet)VI_A21 : 3-Blue
+(Artificer,Spear)VI_A02 : 5-BlueLizard-2
+VI_A06 : 4-Cyan-2
+(X-Yellow,Rivulet)VI_B08 : 2-White
+(Yellow)VI_B08 : 2-Blue
+(Rivulet)VI_B08 : 2-Strawberry
+(White,Yellow,Gourmand,Rivulet)LINEAGE : VI_A11 : 5 : Pink-0.5, Yellow-0.6, Cyan-0
+(Red)LINEAGE : VI_A11 : 5 : Pink-0.9, Yellow-0.7, Red-0
+(Artificer,Spear)LINEAGE : VI_A11 : 5 : Red-1.0, NONE-0.2, Yellow-0
+END CREATURES

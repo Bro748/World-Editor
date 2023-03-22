@@ -1,0 +1,71 @@
+Room Multi-select
+(you can move or delete or assign subregions\layers\attractiveness to multiple rooms)
+
+
+~~DUMMY ROOMS~~
+Draws a blank rectangle, or maybe you can draw on it idk.
+In the Dummy Builder you can add as many entrances and dens you want
+Dummy Rooms can be used to basically make blockmaps
+or to act as temporary map filler
+
+~~PROPERTIES PANEL~~
+
+you can edit everything through here
+
+heirarchy
+
+WORLD
+|
+|->PROPERTIES (not including subregions)
+|
+|->SUBREGIONS
+|
+|->ROOMS (plural)
+   |
+   |->ROOM (singular)
+      |
+      |->ATTRACTIVENESS
+      |
+      |->DEN
+         |
+         |->CREATURE
+
+
+what stuff shows: (>) = go somewhere, (-) just a list
+
+WORLD
+>properties
+>subregions
+>rooms
+
+ROOMS
+>room1
+>room2
+>room3
+ect.
+
+ROOM
+
+dev & canon position
+layer & subregion
+
+-entrance 1 : connection\disconnected
+-entrance 2 : connection\disconnected
+ect.
+
+>den 3 : simple rep\empty
+>den 4 : simple rep\empty
+ect.
+
+tags
+
+>attractiveness
+
+DEN
+>creature 1 (rep)
+>creature 2 (rep)
+>creature 3 (rep)
+ect.
+
+CREATURE
+see mockup

@@ -1,0 +1,20 @@
+Recolor
+
+Visibility on:
+x-layers
+-subregions
+x-entrances
+x-dens
+x-connections
+x-creatures
+
+save connection to array (for reloading)
+
+creature UI
+
+export:
+x-rooms
+x-room connections
+-creatures
+x-map positions
+-rendered map

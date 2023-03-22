@@ -1,0 +1,6 @@
+//don't mess with this one, lol
+Neutral
+Forbidden
+Avoid
+Like
+Stay

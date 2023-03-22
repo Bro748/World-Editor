@@ -1,0 +1,70 @@
+ROOMS
+
+GATE_CF_CA : DISCONNECTED, CA_A01, DISCONNECTED : GATE
+GATE_FN_CA : DISCONNECTED, CA_A13, CA_S02 : GATE
+CA_A01 : GATE_CF_CA, CA_A02
+CA_A02 : CA_A03, CA_S01, CA_A01, CA_A04
+CA_A03 : CA_A02
+CA_S01 : CA_A02 : SHELTER
+CA_A04 : CA_A05, CA_A02, CA_B02
+CA_A05 : CA_A08, CA_S07, CA_A06, CA_A04 : PERF_HEAVY
+CA_S07 : CA_A05 : SHELTER
+CA_A06 : CA_A05
+CA_A08 : CA_A10, CA_A09, CA_A05 : PERF_HEAVY
+CA_A09 : CA_A08
+CA_A10 : CA_A11, CA_A08
+CA_A11 : DISCONNECTED, CA_A10, CA_A12
+CA_A12 : CA_A13, CA_A11, DISCONNECTED
+CA_A13 : GATE_FN_CA, CA_A12, CA_B06
+CA_S02 : GATE_FN_CA : SHELTER
+CA_B02 : CA_B01, CA_A04, CA_B03
+CA_B01 : CA_B02, DISCONNECTED, CA_B03, CA_C01
+CA_B03 : CA_B02, CA_B01, DISCONNECTED
+CA_C01 : CA_C02, CA_B01
+CA_C02 : CA_C03, CA_C01
+CA_C03 : CA_C02, CA_B04 : SWARMROOM
+CA_B04 : DISCONNECTED, CA_S03, CA_B05, CA_C03
+CA_S03 : CA_B04 : SHELTER
+CA_B05 : CA_B06, CA_B04
+CA_B06 : CA_A13, CA_B07, CA_B05
+CA_B07 : CA_B06, DISCONNECTED
+END ROOMS
+CREATURES
+
+CA_B06 : 3-Centipede-{0.4}, 3-Centipede-{0.2}, 5-Black
+(Yellow)CA_B05 : 3-Pink
+(X-Yellow)CA_B05 : 3-Black, 4-Black
+(White,Gourmand)LINEAGE : CA_B04 : 4 : BigSpider-0.6, BigSpider-0.5, SpitterSpider-0
+(White,Yellow,Gourmand)LINEAGE : CA_B04 : 5 : BigSpider-0.6, BigSpider-0.5, SpitterSpider-0
+(Red)LINEAGE : CA_B04 : 4 : BigSpider-0.6, SpitterSpider-0
+(X-White,Yellow,Red,Gourmand)CA_B04 : 5-SpitterSpider
+(Red,Artificer,Spear,Rivulet)CA_B04 : 5-SpitterSpider
+(X-White,Yellow,Red,Gourmand,Rivulet)CA_B04 : 5-MotherSpider
+(White,Yellow,Gourmand)CA_C02 : 2-CicadaA, 2-CicadaB-2
+(Rivulet)CA_C02 : 2-Yeek-3
+(Red,Artificer,Spear)CA_C02 : 2-CicadaB-3
+(White,Gourmand)CA_C03 : 2-Yellow-3
+(Rivulet)CA_C03 : 2-Yellow-5
+(White,Gourmand,Rivulet)LINEAGE : CA_C03 : 2 : Yellow-0.9, Pink-0.8, Cyan-0.5, Red-1, NONE-0.1, Pink-0
+(Yellow)CA_C03 : 2-Yellow-3
+(Red,Artificer,Spear)CA_C03 : 2-Red
+(Yellow)CA_B01 : 3-Small Centipede-2
+(White,Gourmand,Rivulet)LINEAGE : CA_B01 : 3 : NONE-0.5, Small Centipede-0.5, Centipede-{0.4}-0.5, Centipede-{0.7}-0.5, Centipede-{0.9}-0.1, RedCenti-0
+(Red,Artificer,Spear)LINEAGE : CA_B01 : 3 : Centipede-{0.3}-0.5, Centipede-{0.6}-0.5, Centipede-{0.9}-0.2, RedCenti-0
+(White,Yellow,Gourmand,Rivulet)CA_A01 : 2-Eggbug
+(Red,Artificer,Spear)LINEAGE : CA_A01 : 2 : NONE-0.5, Eggbug-1, BigSpider-0.2, Cyan-0
+(X-Rivulet)CA_A02 : 4-Needle Worm, 4-SmallNeedleWorm-2
+(Red,Artificer,Spear)LINEAGE : CA_A05 : 4 : Blue-0.5, White-0.5, Cyan-0
+(Rivulet)CA_A02 : 4-Yeek-2, 7-Yeek-2, 11-SpitLizard, 9-SpitLizard
+(Rivulet)CA_C01 : 2-SpitLizard-2, 3-Centiwing, 4-Centiwing
+(Rivulet)CA_A05 : 5-BigNeedleWorm, 5-SmallNeedleWorm-2
+(White,Yellow,Gourmand)OFFSCREEN : 0-Vulture-2, 0-Deer-5
+(Red,Artificer,Spear)OFFSCREEN : 0-Vulture-2, 0-KingVulture-1, 0-Deer-4
+(Rivulet)OFFSCREEN : 0-Vulture-3, 0-Deer-5
+(Rivulet)LINEAGE : CA_B01 : 6 : Centipede-0.7, Centi-0.7, Centi-0.5, RedCenti-0
+(Rivulet)CA_B01 : 6-Centipede, 7-SmallCentipede-2
+(Yellow)CA_A02 : 6-Green
+(X-Yellow,Gourmand,Rivulet)LINEAGE : CA_A02 : 6 : Green-0.5, Cyan-0.1, Red-0
+(Gourmand)LINEAGE : CA_A02 : 6 : Green-0.5, Caramel-0.5, Cyan-0.1, Red-0
+(X-Yellow)CA_A02 : 5-Pink
+END CREATURES

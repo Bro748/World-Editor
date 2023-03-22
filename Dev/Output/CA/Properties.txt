@@ -1,0 +1,31 @@
+
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0.01
+overseersMin: 0
+overseersMax: 2
+playerGuideOverseerSpawnChance: 0.0
+Room Setting Templates: Railway, Carriere, Camp
+Subregion: Railway
+Subregion: Rackdale
+Room_Attr: CA_A01: GreenLizard-Like,PinkLizard-Like,SpitLizard-Like,
+Room_Attr: CA_A02: GreenLizard-Stay,PinkLizard-Stay,BigSpider-Avoid,SpitterSpider-Forbidden,Deer-Stay,SpitLizard-Stay,
+Room_Attr: CA_A04: GreenLizard-Forbidden,PinkLizard-Forbidden,BigSpider-Avoid,SpitterSpider-Avoid,SpitLizard-Forbidden,
+Room_Attr: CA_A05: CicadaA-Forbidden,CicadaB-Forbidden,Vulture-Forbidden,KingVulture-Forbidden,Centiwing-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,Deer-Stay,
+Room_Attr: CA_A08: GreenLizard-Forbidden,PinkLizard-Forbidden,BlueLizard-Forbidden,CyanLizard-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Vulture-Forbidden,KingVulture-Forbidden,SmallCentipede-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,EggBug-Forbidden,Deer-Stay,
+Room_Attr: CA_A10: SmallCentipede-Avoid,Centipede-Avoid,RedCentipede-Avoid,
+Room_Attr: CA_A11: SmallCentipede-Avoid,Centipede-Avoid,RedCentipede-Avoid,
+Room_Attr: CA_A12: SmallCentipede-Like,Centipede-Like,RedCentipede-Like,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: CA_A13: SmallCentipede-Like,Centipede-Like,RedCentipede-Like,
+Room_Attr: CA_B02: Centipede-Forbidden,Centiwing-Forbidden,
+Room_Attr: CA_B01: CicadaA-Avoid,CicadaB-Avoid,Centipede-Like,SpitLizard-Like,
+Room_Attr: CA_B03: GreenLizard-Forbidden,PinkLizard-Forbidden,BlueLizard-Forbidden,WhiteLizard-Forbidden,BlackLizard-Forbidden,YellowLizard-Forbidden,CyanLizard-Forbidden,RedLizard-Forbidden,Salamander-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Snail-Forbidden,Scavenger-Forbidden,Vulture-Forbidden,KingVulture-Forbidden,SmallCentipede-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,LanternMouse-Forbidden,Spider-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,MirosBird-Forbidden,BrotherLongLegs-Forbidden,DaddyLongLegs-Forbidden,EggBug-Forbidden,DropBug-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,JetFish-Forbidden,TubeWorm-Forbidden,BigEel-Forbidden,Deer-Forbidden,Overseer-Forbidden,FatFireFly-Forbidden,Polliwog-Forbidden,Hazer-Forbidden,MirosVulture-Forbidden,SpitLizard-Forbidden,Eel-Forbidden,ZoopLizard-Forbidden,TrainLizard-Forbidden,AquaCenti-Forbidden,HunterDaddy-Forbidden,TerrorLongLegs-Forbidden,MotherSpider-Forbidden,ScavengerElite-Forbidden,ScavengerKing-Forbidden,JungleLeech-Forbidden,FireBug-Forbidden,Inspector-Forbidden,Yeek-Forbidden,
+Room_Attr: CA_C01: YellowLizard-Avoid,RedLizard-Avoid,CicadaA-Avoid,CicadaB-Avoid,Vulture-Avoid,KingVulture-Forbidden,BigSpider-Avoid,SpitterSpider-Avoid,SpitLizard-Like,
+Room_Attr: CA_C02: RedLizard-Like,Vulture-Like,KingVulture-Like,
+Room_Attr: CA_C03: BlackLizard-Forbidden,YellowLizard-Like,RedLizard-Stay,CicadaA-Like,CicadaB-Like,Vulture-Avoid,KingVulture-Avoid,SmallCentipede-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: CA_B04: BlackLizard-Like,YellowLizard-Forbidden,RedLizard-Forbidden,SmallCentipede-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: CA_B05: BlackLizard-Like,
+Room_Attr: CA_B06: BlackLizard-Like,
+Room_Attr: CA_B07: GreenLizard-Forbidden,PinkLizard-Forbidden,BlueLizard-Forbidden,WhiteLizard-Forbidden,BlackLizard-Forbidden,YellowLizard-Forbidden,CyanLizard-Forbidden,RedLizard-Forbidden,Salamander-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Snail-Forbidden,PoleMimic-Forbidden,TentaclePlant-Forbidden,Scavenger-Forbidden,Vulture-Forbidden,KingVulture-Forbidden,SmallCentipede-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,LanternMouse-Forbidden,Spider-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,MirosBird-Forbidden,BrotherLongLegs-Forbidden,DaddyLongLegs-Forbidden,EggBug-Forbidden,DropBug-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,JetFish-Forbidden,Leech-Forbidden,SeaLeech-Forbidden,TubeWorm-Forbidden,BigEel-Forbidden,Deer-Forbidden,Overseer-Forbidden,Hazer-Forbidden,

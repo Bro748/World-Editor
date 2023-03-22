@@ -1,0 +1,12 @@
+PreCycle
+Ignorecycle
+Night
+Seed<int>
+AlternateForm:SmallCentipede,DaddyLongLegs,BrotherLongLegs,Vulture,KingVulture
+Winter:BigSpider,SpitterSpider,Lizards,Yeek
+Voidsea:RedLizard,RedCentipede,BigSpider,DaddyLongLegs,BrotherLongLegs,TerrorLongLegs,BigEel,CyanLizard
+Lavasafe
+TentacleImmune
+'<float>:Centipede
+'<int>:PoleMimic
+Mean<float>:Lizards

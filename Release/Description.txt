@@ -1,0 +1,5 @@
+Author - Bro
+Type - Utility
+
+Description
+An editor for assembling the world and map files. Has features for connecting and positioning rooms, creatures spawns, and more.

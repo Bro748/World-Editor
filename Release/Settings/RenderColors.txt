@@ -1,0 +1,37 @@
+//"displaycolor"->"rendercolor"
+//will ignore any line that begins in //
+//or any line that does not include 
+//"123456"->"123456"
+//and will ignore anything outside of the ""
+
+"Transparent"->"00FF00"
+
+//geometry
+"4D4D4D"->"000000" (solid)
+"808080"->"FF0000" (layer 2)
+"999999"->"FF0000" (empty)
+"804D4D"->"990000" (pole/slope)
+
+//submerged
+"353582"->"000000" (solid)
+"5959A6"->"FF00FF" (layer 2)
+"6B6BB7"->"FF00FF" (empty)
+"593582"->"9900FF" (pole/slope)
+
+//shortcuts
+"FFFF00"->"FF0000" (entrance)
+"FF8000"->"FF0000" (den)
+"4D9600"->"FF0000" (shortcut)
+"323232"->"FF0000" (scav hole)
+"FE0000"->"FF0000" (wackamole)
+"40C000"->"FF0000" (garbage worm)
+"C000C0"->"000000" (dead shortcut)
+
+//submerged shortcuts
+"FFFF40"->"FF00FF" (entrance)
+"FF8040"->"FF00FF" (den)
+"4D9640"->"FF00FF" (shortcut)
+"323240"->"FF00FF" (scav hole)
+"FE0040"->"FF00FF" (wackamole)
+"40C040"->"FF00FF" (garbage worm)
+"C00040"->"000000" (dead shortcut)

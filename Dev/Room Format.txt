@@ -1,0 +1,37 @@
+0 = Air
+1 = Solid
+2 = Slope
+3 = Floor
+4 = ShortcutEntrance
+
+,1 = verticalBeam
+,2 = horizontalBeam
+,3 = shortCut
+,4 = entrance
+,5 = Den
+,9 = wack a mole hole
+,6 = wall
+,7 = Bat Hive
+,8 = intVector(?)
+,10 = Garbage Worm
+,11 = intVector(?)
+,12 = scav hole
+
+sections
+1 room name
+2 x,y size | water level | water in front
+3 idk | idk | idk
+4 camera1 | camera2 | camera3 | ect
+5 Border: Solid
+6 shortcut entrance coordinates
+7 idk
+8 creature baking
+9 geometry
+
+
+attraction
+0 = Neutral,
+1 = Forbidden,
+2 = Avoid,
+3 = Like,
+4 = Stay
