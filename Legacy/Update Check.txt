@@ -1,0 +1,6 @@
+Version 1.02
+https://github.com/Bro748/World-Editor-Github/blob/main/World%20Editor%20Update.zip?raw=true
+v1.02
+Patch Notes:
+-Added SWARMROOM to room tags
+-Added Overseer and Hazer to Room Attr.
