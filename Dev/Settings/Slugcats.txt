@@ -1,9 +1,0 @@
-White : Survivor : FFFFFF
-Yellow : Monk : FFFF74
-Red : Hunter : FF4E4E
-Gourmand : Gourmand : FFD671
-Artificer : Artificer : FF8BA4
-Spear : Spearmaster : C348FF
-Rivulet : Rivulet : 5A92FF
-Saint : Saint : 9CFF71
-Inv : Paincat : 000068
