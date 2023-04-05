@@ -1,9 +1,5 @@
-Version 1.01
-https://github.com/Bro748/World-Editor/blob/main/Update/World%20Editor%20Patch%201.01.zip
-v1.01
+Version 1.00
+init
+v1.00
 Patch Notes:
--Proper custom slug support (edit Settings\Slugcats.txt)
-
--Fixed the following bugs:
-|-vanilla rooms unable to load
-|-creature flags removing quantities
+-Updated to Rain World 1.9
