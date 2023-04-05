@@ -53,6 +53,6 @@ MotherSpider,Mother Spider,:SpiderBig:19B219:Dark,Downpour
 ScavengerElite,EliteScavenger,Scavenger Elite,Elite Scavenger,Elite,:ScavElite:E60E0E:Offscreen,Downpour
 ScavengerKing,:ScavKing:FF0000:Downpour
 JungleLeech,:Leech:19B219:Water,Downpour
-FireBug,Firebug,HellBug,Hellbug,:FireBug:FF7878:Downpour
+FireBug,Firebug,HellBug,Hellbug,:FireBug:FF7878:Neutral,Downpour
 Inspector,:Inspector:72E6C4:Misc,Downpour
 Yeek,:Yeek:E5E5E5:Neutral,Downpour
