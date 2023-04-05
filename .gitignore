@@ -2,4 +2,5 @@ dev/rooms/
 dev/temp/
 dev/Creature Sprites/
 dev/Output/
-dev/Settings/
+dev/Settings/*
+!dev/Settings/World Updater.mfa
