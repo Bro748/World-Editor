@@ -25,7 +25,7 @@ LanternMouse,Lantern Mouse,:LanternMouse:A9A4B2:Dark,Neutral
 Spider,:SpiderSmall:A9A4B2:Dark
 BigSpider,:SpiderBig:A9A4B2:Dark
 SpitterSpider,:SpiderBig:AE281E:Dark
-MirosBird,Miros Bird,Miros,:MirosBird:A9A4B2:Offscreen
+MirosBird,Miros,Miros Bird,:MirosBird:A9A4B2:Offscreen
 BrotherLongLegs,Bro,BroLongLegs,:Daddy:74864E:Misc
 DaddyLongLegs,Daddy,:Daddy:0000FF:Misc
 EggBug,Eggbug,:EggBug:00FF78:Neutral
@@ -53,6 +53,26 @@ MotherSpider,Mother Spider,:SpiderBig:19B219:Dark,Downpour
 ScavengerElite,EliteScavenger,Scavenger Elite,Elite Scavenger,Elite,:ScavElite:E60E0E:Offscreen,Downpour
 ScavengerKing,:ScavKing:FF0000:Downpour
 JungleLeech,:Leech:19B219:Water,Downpour
-FireBug,Firebug,HellBug,Hellbug,:FireBug:FF7878:Neutral,Downpour
+FireBug,Firebug,HellBug,Hellbug,:FireBug:FF7878:Downpour
 Inspector,:Inspector:72E6C4:Misc,Downpour
 Yeek,:Yeek:E5E5E5:Neutral,Downpour
+Barnacle,barnacle,:Barnacle:D8A599:Water,Watcher
+DrillCrab,drillcrab,:DrillCrab:A9A4B2:Desert,Offscreen,Watcher
+SandGrub,sandgrub,:SandGrub:A9A4B2:Desert,Watcher:NoSpawn
+BigSandGrub,bigsandgrub,:BigSandGrub:A9A4B2:Desert,Watcher:NoSpawn
+BigMoth,bigmoth,big moth,:BigMoth:FFFFFF:Neutral,Offscreen,Watcher
+SmallMoth,smallmoth,small moth,:SmallMoth:7F7F7F:Neutral,Watcher
+BoxWorm,boxworm,:BoxWorm:007F7F:Misc,Watcher:NoSpawn
+FireSprite,firesprite,:FireSprite:00FFFF:Misc,Watcher:NoSpawn
+Rattler,rattler,:Rattler:D1B2BC:Watcher:NoSpawn
+SkyWhale,skywhale,sky whale,:SkyWhale:FFFFFF:Offscreen,Watcher
+ScavengerTemplar,scavengertemplar,templarscavenger,scavenger templar,templar scavenger, templar,:ScavengerTemplar:FFCC4C:Offscreen,Watcher
+ScavengerDisciple,scavengerdisciple,scavenger disciple,disciplescavenger,disciple scavenger,disciple,:ScavengerDisciple:FFCC4C:Offscreen,Watcher
+Loach,loach,:Loach:A9A4B2:Offscreen,Watcher
+RotLoach,rotbehemoth,rot behemoth,rbehemoth,behemoth,bigrot,:RotLoach:4C00FF:Offscreen,Watcher
+BlizzardLizard,blizzard lizard,blizard,blizzard,:BlizzardLizard:8C99B2:Lizards,Watcher
+BasiliskLizard,basilisk lizard,basilisk,:IndigoLizard:B24C00:Lizards,Watcher
+IndigoLizard,indigo lizard,indigo,skink,:IndigoLizard:4C00CC:Lizards,Desert,Watcher
+Rat,rat,:Rat:7F472D:Dark,Watcher:NoSpawn
+Frog,frog,:Frog:CC7F33:Water,Watcher
+Tardigrade,tardigrade,seapig,:Tardigrade:00FFFF:Neutral,Watcher

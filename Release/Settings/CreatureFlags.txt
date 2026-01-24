@@ -10,3 +10,6 @@ TentacleImmune
 '<float>:Centipede
 '<int>:PoleMimic
 Mean<float>:Lizards
+Ripple
+RotType<float>:Lizards
+Slayer:Tardigrade

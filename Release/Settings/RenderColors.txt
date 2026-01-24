@@ -13,10 +13,10 @@
 "804D4D"->"990000" (pole/slope)
 
 //submerged
-"353582"->"000000" (solid)
-"5959A6"->"FF00FF" (layer 2)
-"6B6BB7"->"FF00FF" (empty)
-"593582"->"9900FF" (pole/slope)
+"353583"->"000000" (solid)
+"5959A7"->"FF00FF" (layer 2)
+"6B6BB8"->"FF00FF" (empty)
+"593583"->"9900FF" (pole/slope)
 
 //shortcuts
 "FFFF00"->"FF0000" (entrance)

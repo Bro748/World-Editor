@@ -1,7 +1,7 @@
 
 --file loading
 Save="Control & S"
-Load="Control & O"
+Load="Control & L"
 New="Control & N"
 Add Room="Control & A"
 --display and edit toggles
