@@ -1,4 +1,12 @@
 dev/rooms/
+release/rooms/*
+!release/rooms/offscreen*
+release/output/
+beta/
+crashlog.log*
+dump.dmp*
+logger*
+World Editor - Watcher/
 dev/temp/
 dev/Creature Sprites/
 dev/Output/

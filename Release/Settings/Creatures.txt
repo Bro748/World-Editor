@@ -25,7 +25,7 @@ LanternMouse,Lantern Mouse,:LanternMouse:A9A4B2:Dark,Neutral
 Spider,:SpiderSmall:A9A4B2:Dark
 BigSpider,:SpiderBig:A9A4B2:Dark
 SpitterSpider,:SpiderBig:AE281E:Dark
-MirosBird,Miros,:MirosBird:A9A4B2:Offscreen
+MirosBird,Miros Bird,Miros,:MirosBird:A9A4B2:Offscreen
 BrotherLongLegs,Bro,BroLongLegs,:Daddy:74864E:Misc
 DaddyLongLegs,Daddy,:Daddy:0000FF:Misc
 EggBug,Eggbug,:EggBug:00FF78:Neutral
